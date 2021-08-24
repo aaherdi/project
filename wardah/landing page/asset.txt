@@ -1,0 +1,15 @@
+/img/hero-bg.jpg
+
+from
+#e43c5c
+
+#007bff
+
+to
+Background-Color
+#5bc5c5
+
+tokped = 18a331
+bukalapak = d81d4a
+shopee = f1582e
+wsap = 35bd49
