@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Dashboard</title>
+    <title>Data User</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -37,6 +37,7 @@
 
 <body class="animsition">
     <div class="page-wrapper">
+        
         <!-- HEADER MOBILE-->
         <header class="header-mobile d-block d-lg-none">
             <div class="header-mobile__bar">
@@ -56,13 +57,21 @@
             <nav class="navbar-mobile">
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
-                        <li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                        <li>
+                            <a class="js-arrow" href="index.html">
+                                <i class="fas fa-chart-bar"></i>Dashboard</a>
                         </li>
                         <li>
-                            <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>Charts</a>
+                            <a href="produk">
+                                <i class="fas fa-shopping-cart"></i>Produk</a>
+                        </li>
+                        <li class="active has-sub">
+                            <a href="user.html">
+                                <i class="fas fa-user"></i>User</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="zmdi zmdi-power"></i>Keluar</a>
                         </li>
                     </ul>
                 </div>
@@ -80,15 +89,15 @@
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                        <li class="active has-sub">
-                            <a class="js-arrow" href="#">
+                        <li>
+                            <a class="js-arrow" href="index.html">
                                 <i class="fas fa-chart-bar"></i>Dashboard</a>
                         </li>
                         <li>
                             <a href="produk.html">
                                 <i class="fas fa-shopping-cart"></i>Produk</a>
                         </li>
-                        <li>
+                        <li  class="active has-sub">
                             <a href="user.html">
                                 <i class="fas fa-user"></i>User</a>
                         </li>
@@ -109,7 +118,7 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="header-wrap">
-                            <h1 class="title-1">Dashboard</h1>
+                            <h1 class="title-1">Data User</h1>
                         </div>
                     </div>
                 </div>
@@ -121,64 +130,50 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <div class="au-card recent-report">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2">recent reports</h3>
-                                        <div class="chart-info">
-                                            <div class="chart-info__left">
-                                                <div class="chart-note">
-                                                    <span class="dot dot--blue"></span>
-                                                    <span>products</span>
-                                                </div>
-                                                <div class="chart-note mr-0">
-                                                    <span class="dot dot--green"></span>
-                                                    <span>services</span>
-                                                </div>
-                                            </div>
-                                            <div class="chart-info__right">
-                                                <div class="chart-statis">
-                                                    <span class="index incre">
-                                                        <i class="zmdi zmdi-long-arrow-up"></i>25%</span>
-                                                    <span class="label">products</span>
-                                                </div>
-                                                <div class="chart-statis mr-0">
-                                                    <span class="index decre">
-                                                        <i class="zmdi zmdi-long-arrow-down"></i>10%</span>
-                                                    <span class="label">services</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="recent-report__chart">
-                                            <canvas id="recent-rep-chart"></canvas>
-                                        </div>
+                            <div class="col-lg-12">
+                                <div class="table-data__tool">
+                                    <div class="table-data__tool-left">
+                                        
+                                    </div>
+                                    <div class="table-data__tool-right">
+                                        <button class="au-btn au-btn-icon au-btn--green au-btn--small">
+                                        Tambah User
+                                        </button>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="au-card chart-percent-card">
-                                    <div class="au-card-inner">
-                                        <h3 class="title-2 tm-b-5">char by %</h3>
-                                        <div class="row no-gutters">
-                                            <div class="col-xl-6">
-                                                <div class="chart-note-wrap">
-                                                    <div class="chart-note mr-0 d-block">
-                                                        <span class="dot dot--blue"></span>
-                                                        <span>products</span>
+                                <div class="table-responsive table--no-card m-b-30">
+                                    <table class="table table-borderless table-striped table-earning">
+                                        <thead>
+                                            <tr>
+                                                <th>no</th>
+                                                <th>nama</th>
+                                                <th>email</th>
+                                                <th>hak akses</th>
+                                                <th>aksi</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Aa Herdi</td>
+                                                <td>
+                                                    <span class="block-email">aaherdi832@gmail.com
+                                                    </span>
+                                                </td>
+                                                <td>Admin</td>
+                                                <td>
+                                                    <div class="table-data-feature">
+                                                        <button class="item">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
                                                     </div>
-                                                    <div class="chart-note mr-0 d-block">
-                                                        <span class="dot dot--red"></span>
-                                                        <span>services</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-6">
-                                                <div class="percent-chart">
-                                                    <canvas id="percent-chart"></canvas>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -192,8 +187,6 @@
                     </div>
                 </div>
             </div>
-            <!-- END MAIN CONTENT-->
-            <!-- END PAGE CONTAINER-->
         </div>
 
     </div>
