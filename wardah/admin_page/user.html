@@ -124,6 +124,63 @@
                 </div>
             </header>
             <!-- HEADER DESKTOP-->
+            <!-- modal large -->
+			<div class="modal fade" id="tambahuser" tabindex="-1" role="dialog" aria-labelledby="tambahuserLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="tambahuserLabel">Tambah User</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<div class="row form-group">
+                                <div class="col col-md-3">
+                                    <label for="text-input" class=" form-control-label">Nama</label>
+                                </div>
+                                <div class="col-9 col-md-6">
+                                    <input type="text" id="text-input" name="text-input" placeholder="nama" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col col-md-3">
+                                    <label for="text-input" class=" form-control-label">Email</label>
+                                </div>
+                                <div class="col-9 col-md-6">
+                                    <input type="email" id="text-input" name="text-input" placeholder="Email" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col col-md-3">
+                                    <label for="text-input" class=" form-control-label">Password</label>
+                                </div>
+                                <div class="col-9 col-md-6">
+                                    <input type="password" id="text-input" name="text-input" placeholder="Password" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col col-md-3">
+                                    <label for="select" class=" form-control-label">Hak Akses</label>
+                                </div>
+                                <div class="col-6 col-md-3">
+                                    <select name="select" id="select" class="form-control">
+                                        <option value="0">Pilih Jenis</option>
+                                        <option value="1">Option #1</option>
+                                        <option value="2">Option #2</option>
+                                        <option value="3">Option #3</option>
+                                    </select>
+                                </div>
+                            </div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Kembali</button>
+							<button type="button" class="btn btn-primary">Simpan</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end modal large -->
 
             <!-- MAIN CONTENT-->
             <div class="main-content">
@@ -136,9 +193,9 @@
                                         
                                     </div>
                                     <div class="table-data__tool-right">
-                                        <button class="au-btn au-btn-icon au-btn--green au-btn--small">
-                                        Tambah User
-                                        </button>
+                                        <button class="au-btn au-btn-icon au-btn--green au-btn--small" data-toggle="modal" data-target="#tambahuser">
+                                            Tambah User
+                                            </button>
                                     </div>
                                 </div>
                                 <div class="table-responsive table--no-card m-b-30">
