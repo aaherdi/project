@@ -1,0 +1,31 @@
+Visi Program Studi Teknik Informatika adalah :
+Menjadi program studi terkemuka di wilayah Jawa Barat pada tahun 2026 melalui peningkatan tri dharma perguruan tinggi, dan menghasilkan lulusan yang memiliki softskill dan hardskill pada bidang teknik informatika.
+
+berikut penjelasan mengenai istilah-istilah ini  
+
+Terkemuka : terpandang dan unggul dari program studi yang sama di wilayah Jawa Barat.
+Peningkatan tri darma perguruan tinggi : berusaha meningkatkan kewajiban civitas akademika yakni berupa pengajaran, penelitian dan pengabdian kepada masyarakat.
+Softskill : lulusan program studi memiliki kemampuan dalam segi kerjasama dalam kelompoknya, mampu bekerja di bawah tekanan, memiliki tanggungjawab dibidangnya (profesi), rasa mampu bersaing, dan keinginan kuat untuk membangun masyarakat.
+Hardskill : lulusan program studi memiliki kemampuan sesuai dengan capaian program studi yakni :
+Memiliki kemampuan menganalisis, merancang dan menggambarkannya dalam bentuk model sistem informasi.
+Memiliki kemampuan memahami masalah, membaca hasil analisis dan rancangan sistem serta mampu mengimplementasikannya dalam bentuk pemrograman.
+Lulusan memiliki kemampuan merencanakan, mendesign, dan membuat produk multimedia.
+Lulusan memiliki kemampuan merancang, menghitung perencanaan topologi, serta memiliki kemampuan mengimplementasikan perencanaan arsitektur jaringan.
+Misi Program Studi Teknik Informatika adalah :
+Meningkatkan proses pembelajaran yang efisien, efektif, produktif dan professional dalam bidang Teknik Informatika serta mengembangkan  kurikulum berbasis KKNI.
+Meningkatkan kegiatan penelitian bersama antara dosen dan mahasiswa yang terarah dan terpadu dalam rangka memacu pengembangan ilmu pengetahuan, teknologi dan seni.
+Melaksanakan kegiatan pengabdian kepada masyarakat dalam bidang yang relevan secara edukatif, konsisten, dan terprogram dengan mengacu pada telaah dan kajian bidang Teknik Informatika.
+Meningkatkan kerjasama dengan instansi dalam hal pengembangan akademik dan pengguna lulusan.
+Tujuan Teknik Informatika :
+Menghasilkan lulusan yang profesional dalam bidang teknik informatika.
+Menghasilkan jumlah dan kualitas hasil penelitian yang dapat memberikan kontribusi terhadap pengembangan ilmu pengetahuan, teknologi serta seni di bidang teknik informatika.
+Mengupayakan kontribusi nyata keilmuan informatika bagi masyarakat (dunia usaha, dunia industri, masyarakat umum, pemerintah maupun swasta).
+Menghasilkan kurikulum teknik informatika yang berbasis KKNI.
+Menghasilkan kerjasama dengan instansi dalam hal pengembangan akademik pengguna lulusan, pengembangan sumber daya manusia, serta peningkatan fasilitas dan pelayanan.
+Sasaran dan Strategi Pencapaiannya
+Tujuan 1. Menghasilkan luusan yang profesional dalam bidang Teknik Informatika yang sesuai dengan capaian program studi yakni :
+
+Memiliki kemampuan menganalisis, merancang dan menggambarkan dalam bentuk model sistem informasi. 
+Memiliki kemampuan memahami masalah, membaca hasil analisis dan rancangan sistem serta mampu mengimplementasikan dalam bentuk pemrograman. 
+Memiliki kemampuan merancang, mendesain dan membuat produk multimedia. 
+Memiliki kemampuan merancang, perencanaan topologi, serta memiliki kemampuan mengiimplementasikan perencanaan arsitektur jaringan.
